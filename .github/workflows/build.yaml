@@ -22,4 +22,4 @@ jobs:
       uses: sonarsource/sonarqube-scan-action@master
       env:
         SONAR_TOKEN: 'sqa_0cf9ce1c95fddf10e673a4263a3ab89c8796fbe7'
-        SONAR_HOST_URL: 'http://192.168.2.106:9000'
+        SONAR_HOST_URL: 'localhost:9000'
